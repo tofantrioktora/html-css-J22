@@ -9,14 +9,19 @@
 	}
 
 	.anggota-team  {
-		width:25%;
-		float:left;
-		margin:auto;
+		width:50%;
 	}
-	.anggota-team .detail {
-		padding: 0px;
-		font-size: 18px;
-		line-height: 20px;
+
+
+	.anggota-team-detail .ket {
+		width: 60%;
+		float: left;
+		margin: 5px 0px;
+	}
+
+	.anggota-team-detail p {
+		margin: 10px 3px;
+		font-weight: 25px;
 	}
 	
 }
@@ -71,15 +76,20 @@
 		height: 850px;
 	}
 
+
+	.anggota {
+		padding-left: 60px;
+}
+
 	.anggota-team  {
-		width:50%;
+		width:100%;
 		flex: auto;
 	}
 	
-	.anggota-team .detail {
-		font-size: 20px;
-		line-height: 20px;
+	.anggota-team-detail .ket {
+		text-align: center;
 	}
+
 	
 	.box1{
 		width:100%

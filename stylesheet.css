@@ -157,27 +157,42 @@ a {
 	font-size: 24px;
 }
 
+.anggota {
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 40px;
+	text-align: center;	
+}
 
 .anggota-team  {
-	width:12.5%;
+	width:25%;
 	float:left;
 }
 
-img {
-	width: 80px;
-}
 
-.anggota-team .detail {
+.anggota-team-detail {
 	padding-top:5px;
-	padding-left: 5px;
 	text-align: left;
 	font-size: 14px;
-	width: 120px;
 	margin:auto;
 }
 
-.anggota-team .detail p {
-	margin:5px 0px;
+.anggota-team-detail img {
+	width: 80px;
+	float: left;
+	margin: 5px;
+}
+
+.anggota-team-detail .ket {
+	max-width: 60%;
+	float: left;
+	margin: 0px;
+}
+
+.anggota-team-detail p {
+	margin: 10px 3px;
+	font-weight: 20px;
+	
 }
 
 /* bagian extra2*/
